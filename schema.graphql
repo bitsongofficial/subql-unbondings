@@ -1,0 +1,10 @@
+type UnbondingEvent @entity {
+  id: ID!
+  blockHeight: BigInt!
+  txHash: String!
+  sender: String!
+  validator: String!
+  amount: BigInt!
+  createdAt: Date!
+  completedAt: Date
+}
